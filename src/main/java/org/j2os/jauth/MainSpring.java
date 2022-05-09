@@ -10,5 +10,6 @@ public class MainSpring {
         JAuthController.setServer("http://localhost:8081");
         JAuthController.setToken("myjava123");
         SpringApplication.run(MainSpring.class);
+
     }
 }

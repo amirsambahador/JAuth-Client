@@ -14,6 +14,18 @@ import java.util.stream.Collectors;
 
 @Controller
 public class JAuthController implements Filter {
+    static {
+        System.out.println();
+        System.out.println();
+        System.out.println("     ██╗ █████╗ ██╗   ██╗████████╗██╗  ██╗\n" +
+                "     ██║██╔══██╗██║   ██║╚══██╔══╝██║  ██║\n" +
+                "     ██║███████║██║   ██║   ██║   ███████║\n" +
+                "██   ██║██╔══██║██║   ██║   ██║   ██╔══██║\n" +
+                "╚█████╔╝██║  ██║╚██████╔╝   ██║   ██║  ██║\n" +
+                " ╚════╝ ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝");
+        System.out.println();
+        System.out.println();
+    }
     private static String server;
     private static String token;
 
